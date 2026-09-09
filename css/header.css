@@ -1,0 +1,47 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.logo span {
+    color: #4d5ae5;
+}
+
+.menu li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    color: #404bbf;
+}
+
+.contacts li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts li a:hover,
+.contacts li a:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
+}
+address a {
+    font-style: normal;
+}
