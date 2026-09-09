@@ -1,4 +1,11 @@
 .logo {
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0;
+width: 115px;
+height: 24px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -6,6 +13,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    margin-right: 76px;
+    margin-left: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .logo span {
@@ -19,11 +30,20 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    height: 72px;
 }
 
 .menu li a:hover,
 .menu li a:focus {
     color: #404bbf;
+}
+.menu {
+    display: flex;
+    align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
 }
 
 .contacts li a{
@@ -33,6 +53,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .contacts li a:hover,
@@ -44,4 +65,23 @@ address {
 }
 address a {
     font-style: normal;
+}
+.header-top {
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0;
+padding: 0 15px;
+width: 1158px;
+height: 72px;
+max-width: 1158px;
+}
+.contacts {
+    display: flex;
+align-items: center;
+flex-direction: row;
+gap: 40px; 
+width: 344px;
+height: 72px;
 }

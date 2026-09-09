@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="header">
+      <div class="container">
+        <div class="header-top">
       <a href="./index.html" class="logo"><span>Web</span>Studio</a>
       <nav>
         <ul class="menu">
@@ -26,24 +28,31 @@
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      </div>
+      </div>
     </header>
 
     <main>
       <section class="hero" id="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <div class="container">
+            <div class="hero-content">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="button">Order Service</button>
+          </div>
+        </div>
       </section>
       <section id="features">
-        <h2 class="features-title">Our Features</h2>
-        <ul>
-          <li>
-            <h3 class="feature-points">Strategy</h3>
-            <p class="feature-description">Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.</p>
-          </li>
-          <li>
-            <h3 class="feature-points">Punctuality</h3>
-            <p class="feature-description">Bring the key message to the brand's audience for the best price
+        <div class="container">
+        
+          <ul class="features-list">
+            <li>
+              <h3 class="feature-points">Strategy</h3>
+              <p class="feature-description">Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.</p>
+            </li>
+            <li>
+              <h3 class="feature-points">Punctuality</h3>
+              <p class="feature-description">Bring the key message to the brand's audience for the best price
             within the shortest possible time.</p>
           </li>
           <li>
@@ -57,76 +66,107 @@
             deep passion for problem-solving.</p>
           </li>
         </ul>
+      </div>
       </section>
 
       <section class="team" id="team">
+        <div class="container">
         <h2 class="team-title">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li class="team-member">
             <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" height="260" />
+            <div class="team-member-info">
             <h3 class="team-member-name">Mark Guerrero</h3>
             <p class="team-member-position">Product Designer</p>
+          </div>
           </li>
           <li class="team-member">
             <img src="./images/team-2.jpg" alt="Tom Ford" width="264" height="260" />
+            <div class="team-member-info">
             <h3 class="team-member-name">Tom Ford</h3>
             <p class="team-member-position">Frontend Developer</p>
+          </div>
           </li>
           <li class="team-member">
             <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" height="260" />
+            <div class="team-member-info">
             <h3 class="team-member-name">Camila Garcia</h3>
             <p class="team-member-position">Marketing</p>
+          </div>
           </li>
           <li class="team-member">
             <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" height="260" />
+            <div class="team-member-info">
             <h3 class="team-member-name">Daniel Wilson</h3>
             <p class="team-member-position">UI Designer</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
-      <section id="portfolio">
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="portfolio-header">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul>
-          <li>
+          <div class="fotos-descripcion">
+          <li class="portfolio-a">
              <img src="./images/portfolio-1.jpg" alt="Banking App" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Banking App</h3>
              <p class="portfolio-description">App</p>
+             </div>
           </li>
-          <li>
+          <li class="portfolio-a">
              <img src="./images/portfolio-2.jpg" alt="Cashless Payment" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Cashless Payment</h3>
              <p class="portfolio-description">Marketing</p>
+             </div>
           </li>
-          <li>
+          <li class="portfolio-a">
              <img src="./images/portfolio-3.jpg" alt="Meditation App" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Meditation App</h3>
              <p class="portfolio-description">App</p>
+              </div>
           </li>
-          <li>
+          <li class="portfolio-a">
              <img src="./images/portfolio-4.jpg" alt="Taxi Service" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Taxi Service</h3>
              <p class="portfolio-description">Marketing</p>
+              </div>
           </li>
-          <li>
+          <li class="portfolio-a">
              <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Screen Illustrations</h3>
              <p class="portfolio-description">Design</p>
+              </div>
           </li>
-          <li>
+          <li class="portfolio-a">
              <img src="./images/portfolio-6.jpg" alt="Online Courses" width="360" height="300" />
+             <div class="portfolio-b">
              <h3 class="portfolio-item">Online Courses</h3>
              <p class="portfolio-description">Marketing</p>
+             </div>
           </li>
+        </div>
         </ul>
+        </div>
+      </div>
       </section>
     </main>
 
     <footer class="footer" id="footer">
+      <div class="container", class="footer-container">
       <a href="./index.html" class="logo2"><span>Web</span>Studio</a>
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
