@@ -1,11 +1,13 @@
+.header-top {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    align-items: center;
+    max-width: 1158px;
+}
+
 .logo {
     display: flex;
     align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 0;
-width: 115px;
-height: 24px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -14,16 +16,20 @@ height: 24px;
     text-transform: uppercase;
     color: #2e2f42;
     margin-right: 76px;
-    margin-left: 15px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .logo span {
     color: #4d5ae5;
 }
 
-.menu li a{
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu li a {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -31,22 +37,26 @@ height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-    height: 72px;
 }
 
 .menu li a:hover,
 .menu li a:focus {
     color: #404bbf;
 }
-.menu {
-    display: flex;
-    align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 40px;
+
+address {
+    font-style: normal;
+    margin-left: auto;
 }
 
-.contacts li a{
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts li a {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -58,30 +68,4 @@ gap: 40px;
 
 .contacts li a:hover,
 .contacts li a:focus {
-    color: #404bbf;
-}
-address {
-    font-style: normal;
-}
-address a {
-    font-style: normal;
-}
-.header-top {
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 0;
-padding: 0 15px;
-width: 1158px;
-height: 72px;
-max-width: 1158px;
-}
-.contacts {
-    display: flex;
-align-items: center;
-flex-direction: row;
-gap: 40px; 
-width: 344px;
-height: 72px;
-}
+    color

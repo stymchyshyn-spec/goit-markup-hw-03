@@ -43,10 +43,20 @@ img {
 }
 .container {
   max-width: 1168px; 
-  padding-left: 16px; 
-  padding-right: 16px;
-  margin-left: auto;  
-  margin-right: auto; 
+ padding: 0 15px;
+    margin: 0 auto;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
 
 

@@ -1,13 +1,6 @@
 .footer {
     background-color: #2e2f42;
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 0;
 padding: 100px 0;
-width: 1440px;
-height: 312px;
 }
 
 .footer-description {
@@ -17,7 +10,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-flex-wrap: wrap;
+max-width: 264px;
+    margin: 0;
 }
 
 .logo2 {
@@ -35,7 +29,6 @@ flex-direction: row;
 gap: 0;
 width: 115px;
 height: 24px;
-margin-bottom: 16px;
 }
 
 .logo2 span {
@@ -44,9 +37,6 @@ margin-bottom: 16px;
 .footer-container {
   display: flex;
 align-items: flex-start;
-justify-content: flex-start;
 flex-direction: column;
 gap: 16px;
-width: 264px;
-height: 112px;
-max-width: 264px; }
+}
