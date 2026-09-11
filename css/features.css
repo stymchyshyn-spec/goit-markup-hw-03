@@ -13,6 +13,7 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
 }
 .features-list {
   display: flex;
@@ -20,11 +21,11 @@ align-items: flex-start;
 justify-content: center;
 flex-direction: row;
 gap: 24px;
-padding: 120px 15px;
-max-width: 1158px;
-flex-basis: calc((100% - 60px) / 4);
-
 }
-.features-list h3 + p {
-    margin-top: 8px;
+.features-list li {
+    flex-basis: calc((100% - 60px) / 4);
+}
+
+.features {
+    padding: 120px 0;
 }

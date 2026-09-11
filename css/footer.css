@@ -27,8 +27,6 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 0;
-width: 115px;
-height: 24px;
 }
 
 .logo2 span {
